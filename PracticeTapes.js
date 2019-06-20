@@ -1,0 +1,6 @@
+function loginConfirm() {
+
+}
+function signupDetails() {
+
+}
