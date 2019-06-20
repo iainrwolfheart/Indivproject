@@ -6,27 +6,29 @@
         <div>
             <h1>PracticeTapes</h1>
         </div>
-         <form onsubmit="return loginConfirm(this)">
+        <div>
             <div class="splitleft">
-                <h2>Login</h2>
-                Username: <input type='text' id='username'><br>
-                Password: <input type='password' id='password'><br>
-                <button type='submit'>Go!</button>
-                <button type='reset'>Reset</button>
+                <form onsubmit="return loginConfirm(this)">
+                    <h2>Login</h2>
+                    Username: <input type='text' id='username'><br>
+                    Password: <input type='password' id='password'><br>
+                    <button type='submit'>Go!</button>
+                    <button type='reset'>Reset</button>
+                    </form>
+                </div>
+            <div class="splitright">
+                <form onsubmit="return signupDetails(this)"> 
+                    <h2>Sign Up</h2>
+                    First Name: <input type='text' id='fname'><br>
+                    Surname: <input type='text' id='sname'><br>
+                    Email: <input type='email' id='email'><br>
+                    Pick a Username: <input type='text' id='username'><br>
+                    Choose a password: <input type='password' id='password'><br>
+                    Confirm password: <input type='password' id='passwordcon'><br>
+                    <button type="submit">Go!</button>
+                    <button type="reset">Reset</button>
+                    </form> 
+                </div>   
             </div>
-        </form>
-         <form onsubmit="return signupDetails(this)"> 
-             <div class="splitright">
-                <h2>Sign Up</h2>
-                First Name: <input type='text' id='fname'><br>
-                Surname: <input type='text' id='sname'><br>
-                Email: <input type='email' id='email'><br>
-                Pick a Username: <input type='text' id='username'><br>
-                Choose a password: <input type='password' id='password'><br>
-                Confirm password: <input type='password' id='passwordcon'><br>
-                <button type="submit">Go!</button>
-                <button type="reset">Reset</button>
-            </div>
-        </form>    
     </body>
 </html>
