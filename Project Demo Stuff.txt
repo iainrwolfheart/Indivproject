@@ -1,0 +1,10 @@
+private Map<Integer, Todo> toDoList = new HashMap();
+
+private Integer toDoKey = 1;
+
+public int addNewToDoToList (Todo addToDo) {
+
+toDoList.put(toDoKey, addToDo);
+toDoKey ++;
+return toDoList.size();
+}

@@ -1,22 +1,28 @@
 <html>
     <head>
-        <link ref="stylesheet" href="PracticeTapes.css">
+        <link rel="stylesheet" type="text/css" href="PracticeTapes.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     </head>
     <body>
         <div>
-            <h1>PracticeTapes</h1>
-        </div>
+            <h1 class="centeredhead">PracticeTapes</h1>
+            </div>
         <div>
-            <div class="splitleft">
+            <div class="split left">
+                <div class="centered">
                 <form onsubmit="return loginConfirm(this)">
                     <h2>Login</h2>
                     Username: <input type='text' id='username'><br>
                     Password: <input type='password' id='password'><br>
                     <button type='submit'>Go!</button>
-                    <button type='reset'>Reset</button>
                     </form>
+                    <div>
+                        <button type='reset'>Reset</button>
+                        </div>
+                    </div>
                 </div>
-            <div class="splitright">
+            <div class="split right">
+                <div class="centered">
                 <form onsubmit="return signupDetails(this)"> 
                     <h2>Sign Up</h2>
                     First Name: <input type='text' id='fname'><br>
@@ -26,9 +32,12 @@
                     Choose a password: <input type='password' id='password'><br>
                     Confirm password: <input type='password' id='passwordcon'><br>
                     <button type="submit">Go!</button>
-                    <button type="reset">Reset</button>
                     </form> 
+                    <div>
+                        <button type="reset">Reset</button>
+                        </div>
+                    </div>   
                 </div>   
             </div>
-    </body>
-</html>
+        </body>
+    </html>
