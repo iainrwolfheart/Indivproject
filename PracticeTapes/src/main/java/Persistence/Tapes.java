@@ -6,12 +6,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity // This tells Hibernate to make a table out of this class
-public class ptuploads {
+public class Tapes {
 	
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
-    private String file_name;
     private String song_name;
     private String url_link;				//???????????????????????????????
 
@@ -23,14 +22,6 @@ public class ptuploads {
 		this.id = id;
 	}
 
-	public String getFileName() {
-		return file_name;
-	}
-
-	public void setFileName(String file_name) {
-		this.file_name = file_name;
-	}
-
 	public String getSongName() {
 		return song_name;
 	}
@@ -39,7 +30,7 @@ public class ptuploads {
 		this.song_name = song_name;
 	}
 	public String getURL() {
-		return song_name;
+		return url_link;
 	}
 
 	public void setURL(String url_link) {
