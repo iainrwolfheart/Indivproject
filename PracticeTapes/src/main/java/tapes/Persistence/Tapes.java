@@ -1,4 +1,4 @@
-package Persistence;
+package tapes.Persistence;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

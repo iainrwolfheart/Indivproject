@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PTMain",
+            "request": "launch",
+            "mainClass": "tapes.PTMain",
+            "projectName": "todoapplication"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PTMain",
+            "request": "launch",
+            "mainClass": "PTMain",
+            "projectName": "todoapplication"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PTMain",
+            "request": "launch",
+            "mainClass": "IndivProject.PracticeTapes.PTMain",
+            "projectName": "todoapplication"
+        }
+    ]
+}
