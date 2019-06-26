@@ -2,11 +2,8 @@ package Repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import IndivProject.PracticeTapes;
+import Persistence.ptuploads;
 
-// This will be AUTO IMPLEMENTED by Spring into a Bean called userRepository
-// CRUD refers Create, Read, Update, Delete
-
-public interface PTRepository extends CrudRepository<User, Integer> {
-
+public interface PTRepository extends CrudRepository<ptuploads, Long> {
+								//Unsure if use of 'Long' is correct????????????????
 }
