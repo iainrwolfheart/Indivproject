@@ -11,7 +11,7 @@ import Persistence.Tapes;
 import Repository.TapesRepository;
 
 @RestController    
-@RequestMapping(path="/tapes") 
+@RequestMapping(path="/Tapes") 
 public class Controller {
 	
 	@Autowired 
