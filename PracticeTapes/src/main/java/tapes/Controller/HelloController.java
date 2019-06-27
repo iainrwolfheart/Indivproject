@@ -1,12 +1,15 @@
-package tapes.HelloController;
+package tapes.Controller;
 
 import org.springframework.web.bind.annotation.RestController;
+
+import tapes.Persistence.Tapes;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
+@RequestMapping
 public class HelloController {
-
-    @RequestMapping("/")
+    
     public String index() {
         return "Greetings from Spring Boot!";
     }

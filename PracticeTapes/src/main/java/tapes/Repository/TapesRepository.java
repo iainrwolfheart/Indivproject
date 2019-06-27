@@ -1,9 +1,10 @@
 package tapes.Repository;
 
-import org.springframework.data.repository.CrudRepository;
+import java.util.Optional;
 
+import org.springframework.data.jpa.repository.JpaRepository;
 import tapes.Persistence.Tapes;
 
-public interface TapesRepository extends CrudRepository<Tapes, Integer> {
-								
+public interface TapesRepository extends JpaRepository<Tapes, Integer> {
+
 }
