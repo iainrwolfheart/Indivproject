@@ -2,8 +2,6 @@ package tapes.Controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import tapes.Persistence.Tapes;
-
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController

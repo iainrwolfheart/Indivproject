@@ -1,8 +1,5 @@
 package tapes.Controller;
 
-import java.util.List;
-import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -33,4 +30,14 @@ public class PTController {
         return tapesRepository.findAll();
     }
     
+//    @GetMapping("/{id}")
+//    public Tapes get(@PathVariable("id") long id) {
+//    	return new Tapes();
+//    }
+    
+//    @RequestMapping(value = "tapes/{songName}", method = RequestMethod.DELETE)
+//    public @ResponseBody String removeByName(@RequestBody Tapes tape){
+//        tapesRepository.removeByName(tape);
+//        return tape+"deleted";
+//    }
 }
