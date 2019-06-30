@@ -2,7 +2,7 @@ function loginConfirm() {
     const password = document.getElementById("password")
     if (password === "PracticeTapes"){
         alert("Yay");
-        window.location="PracticeTapesMain1";
+        window.location="PracticeTapesMain1.html";
     }
     else {
         alert("Please enter the correct password to enter");
@@ -32,7 +32,7 @@ function findSongLink() {
     const songtolink = document.getElementById("songToFind");
     
     for (i = 0; i < Tapes.length; i++) {
-        if (Tapes.songName[i]===songtolink){
+        if (Tapes.songName.value[i]===songtolink){
             //return Tapes.url[i] as a link to screen??
         }
         else
