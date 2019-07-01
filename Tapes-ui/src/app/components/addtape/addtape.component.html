@@ -1,3 +1,9 @@
+<div style="text-align:center">
+  <a routerLink="/viewtapes" routerLinkActive="active">View all Tapes</a>
+  <a routerLink="/findlink" routerLinkActive="active">Listen</a>
+  <a routerLink="/home" routerLinkActive="active">Home</a>
+</div>
+
 <div class="container" style="text-align:center">
         <form [formGroup]="tapeform" (ngSubmit)="submitTape()" novalidate>
           <div *ngIf="validMessage != ''">

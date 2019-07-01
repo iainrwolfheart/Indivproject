@@ -1,1 +1,38 @@
-<p>findlink works!</p>
+<div style="text-align:center">
+    <a routerLink="/viewtapes" routerLinkActive="active">View all Tapes</a>
+    <a routerLink="/addtape" routerLinkActive="active">Add a Tape</a>
+    <a routerLink="/home" routerLinkActive="active">Home</a>
+  </div>
+  <div class="container">
+    <div>
+      <div class="form-group">
+        <label>Buyer Name</label>
+        <div class="form-control">{{bikeReg.name}}</div>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <div class="form-control">{{bikeReg.email}}</div>
+      </div>
+      <div class="form-group">
+        <label>Phone</label>
+        <div class="form-control">{{bikeReg.phone}}</div>
+      </div>
+      <div class="form-group">
+        <label>Bike Model</label>
+        <div class="form-control">{{bikeReg.model}}</div>
+      </div>
+      <div class="form-group">
+        <label>Bike Serial Number</label>
+        <div class="form-control">{{bikeReg.serialNumber}}</div>
+      </div>
+      <div class="form-group">
+        <label>Purchase Price</label>
+        <div class="form-control">{{bikeReg.purchasePrice}}</div>
+      </div>
+      <div class="form-group">
+        <label>Purchase Date</label>
+        <div class="form-control">{{bikeReg.purchaseDate}}</div>
+      </div>
+    </div>
+  </div>
+ 

@@ -4,11 +4,10 @@
         <th>Song Name</th>
         <th>URL</th>
         <th>TrackNo</th>
-        <th class="text-right">Tapes</th>
       </tr>
       <tr *ngFor="let tape of tapes">
         <td>
-          {{tape.songName}}
+          <a [routerLink]="['/admin/view', tape.songName]">{{tape.songName}}</a>
         </td>
         <td>
           {{tape.urlLink}}
