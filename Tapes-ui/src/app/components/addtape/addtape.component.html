@@ -4,14 +4,11 @@
   <a routerLink="/home" routerLinkActive="active">Home</a>
 </div>
 
+<div class="containerback">
 <div class="container" style="text-align:center">
         <form [formGroup]="tapeform" (ngSubmit)="submitTape()" novalidate>
           <div *ngIf="validMessage != ''">
             <h3 class="has-info">{{validMessage}}</h3>
-          </div>
-          <div class="form-group">
-            <p id="m"><label>ID </label></p>
-            <input type="text" class="form-control" formControlName="id" required autofocus/>
           </div>
           <div class="form-group">
             <p id="m"><label>SONG NAME </label></p>
@@ -25,6 +22,7 @@
             <p id="m"><label>URL </label></p>
             <input type="text" class="form-control" formControlName="urlLink" required>
           </div>
-          <button type="submit" class="btn btn-primary" >SUBMIT</button>
+          <button type="submit" class="btn btn-primary" id="s">SUBMIT</button>
         </form>
       </div>
+    </div>

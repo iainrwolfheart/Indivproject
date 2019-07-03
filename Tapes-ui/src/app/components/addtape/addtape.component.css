@@ -7,17 +7,20 @@ a {
   }
 
 .container {
-    background-color: white;
     margin: 50px;
     width: 200px;
     position: fixed;
-    top: 50%;
+    top: 55%;
     left: 45%;
-    /* bring your own prefixes */
     transform: translate(-50%, -50%);
-
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
   }
-
   #m {
     margin-bottom: 0px;
+  }
+  #s {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }

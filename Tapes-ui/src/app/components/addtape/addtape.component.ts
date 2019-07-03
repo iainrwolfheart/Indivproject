@@ -17,7 +17,7 @@ export class AddtapeComponent implements OnInit {
 
   ngOnInit() {
     this.tapeform = new FormGroup ({
-      id: new FormControl(''),
+      //id: new FormControl(''),
       songName: new FormControl('', Validators.required),
       trackNo: new FormControl('', Validators.required),
       urlLink: new FormControl('', Validators.required)

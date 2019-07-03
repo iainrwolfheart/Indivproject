@@ -1,11 +1,12 @@
 .container {
-    background-color: white;
-    color: black;
     padding: 1em 1.5em;
     text-decoration: none;
     text-transform: uppercase;
     margin-top: 20px;
     text-align: center;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
   }
   a {
     background-color:black;
@@ -16,17 +17,4 @@
     margin-top: 50px;
   }
 
-  body {
-    background-image: url("https://www.dropbox.com/s/riptvsr7yp8djl9/Edit-0913.jpg?raw=1");
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Quicksand', sans-serif;
-    text-rendering: optimizeLegibility;
-    position: relative;
-    min-height: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 1.0em;
-  }
+ 

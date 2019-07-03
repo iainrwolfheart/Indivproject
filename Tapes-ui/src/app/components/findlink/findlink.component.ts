@@ -11,13 +11,14 @@ export class FindlinkComponent implements OnInit {
 
   public tapeFind;
 
-  constructor(private tapesService: TapesService, private route: ActivatedRoute) { }
+  constructor(private service: TapesService, private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.getTape(this.tapeFind);
   }
 
   getTape(tapeFind:String) {
-    this.tapesService.getTapeByName(tapeFind).subscribe(
+    this.service.getTapeByName(tapeFind).subscribe(
       data => {
         this.tapeFind = data;
       },
