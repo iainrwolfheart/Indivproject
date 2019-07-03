@@ -5,4 +5,19 @@ a {
     text-decoration: none;
     text-transform: uppercase;
   }
-  
+
+.container {
+    background-color: white;
+    margin: 50px;
+    width: 200px;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+  }
+
+  #m {
+    margin-bottom: 0px;
+  }

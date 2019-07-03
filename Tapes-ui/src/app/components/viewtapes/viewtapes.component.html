@@ -1,7 +1,21 @@
-<div style="text-align:center">
+<html>
+  <head>
+
+    </head
+><body>
+  <div style="text-align:center">
     <a routerLink="/findlink" routerLinkActive="active">Listen</a>
     <a routerLink="/addtape" routerLinkActive="active">Add a Tape</a>
     <a routerLink="/home" routerLinkActive="active">Home</a>
-  </div>
+    </div>
+    <div class="tapelist">
+      <tr *ngFor="let tape of tapes">
+      <td style="text-align:center">
+        <p><a [routerLink]="['/admin/view', tape.songName]">{{tape.songName}}</a></p>
+        </td>
+      </tr>
+      </div>
+  </body>
+  </html>
 
 

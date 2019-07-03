@@ -33,7 +33,7 @@ public class TapesController {
 	public void create(@RequestBody Tapes tape) {
 		tapesRepository.save(tape);
 	}
-	@GetMapping("/{id}") 
+	@GetMapping("/findsong/{id}}") 
 	public Tapes get(@PathVariable("id") long id) {  
 		return tapesRepository.getOne(id);
 	}

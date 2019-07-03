@@ -1,25 +1,28 @@
 html {
     height: 100vh;
   }
-  
+
   body {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: aquamarine;
-    background-size: contain;
-    font-family: 'Quicksand', sans-serif;
-    text-rendering: optimizeLegibility;
-    position: relative;
-    min-height: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 1.0em;
+
+      background-image: url("https://www.dropbox.com/s/oyoof748zc6lprl/Edit-0914.jpg?raw=1");
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: 'Quicksand', sans-serif;
+      text-rendering: optimizeLegibility;
+      position: relative;
+      min-height: 100%;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 1.0em;
   }
   
   h1 {
     font-size: 2.0em;
+    -webkit-text-fill-color: lightgray;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
   }
-  
-  .table-bordered, .table-bordered td, .table-bordered th {
-    border: 1px solid #2F465D;
-  }
+
+

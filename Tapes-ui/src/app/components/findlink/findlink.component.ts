@@ -10,20 +10,19 @@ import { ActivatedRoute } from '@angular/router';
 export class FindlinkComponent implements OnInit {
 
   public tapeFind;
+
   constructor(private tapesService: TapesService, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.getTape(this.route.snapshot.params.songName);
-    //songName may need to be changed to route on routing.module
   }
 
-  getTape(songName:String) {
-    this.tapesService.getTapeByName(songName).subscribe(
+  getTape(tapeFind:String) {
+    this.tapesService.getTapeByName(tapeFind).subscribe(
       data => {
         this.tapeFind = data;
       },
       err => console.error(err),
       () => console.log("Tape is ready.")
-    );
+    )
   }
 }
