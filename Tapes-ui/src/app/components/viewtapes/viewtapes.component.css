@@ -1,11 +1,18 @@
 a {
-    background-color: black;
     color: white;
     padding: 1em 1.5em;
     text-decoration: none;
     text-transform: uppercase;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
   }
 
-tapelist {
-    text-align: center;
+#tapeDisplay {
+  text-align: left;
+
+}
+
+#small {
+  font-size: 7px;
 }

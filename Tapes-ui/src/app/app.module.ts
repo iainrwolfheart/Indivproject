@@ -11,6 +11,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ViewtapesComponent } from './components/viewtapes/viewtapes.component';
 import { FindlinkComponent } from './components/findlink/findlink.component';
 import { AddtapeComponent } from './components/addtape/addtape.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { AddtapeComponent } from './components/addtape/addtape.component';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [TapesService],

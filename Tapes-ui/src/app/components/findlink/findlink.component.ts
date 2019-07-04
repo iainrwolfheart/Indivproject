@@ -9,12 +9,12 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class FindlinkComponent implements OnInit {
 
-  public tapeFind;
+  public tapeFind; //wrong!
 
   constructor(private service: TapesService, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.getTape(this.tapeFind);
+    this.getTape(this.tapeFind); //SO wrong!
   }
 
   getTape(tapeFind:String) {
@@ -23,7 +23,7 @@ export class FindlinkComponent implements OnInit {
         this.tapeFind = data;
       },
       err => console.error(err),
-      () => console.log("Tape is ready.")
+      () => console.log("Tape is ready.") //COULD I BE ANY MORE WRONG!?
     )
   }
 }

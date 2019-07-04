@@ -1,14 +1,17 @@
 a {
-    background-color: black;
     color: white;
     padding: 1em 1.5em;
     text-decoration: none;
     text-transform: uppercase;
+    margin: 15px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
   }
 
 .centered {
     position: fixed;
     top: 50%;
-    left: 50%;
+    left: 48%;
     transform: translate(-50%, -50%);
     }

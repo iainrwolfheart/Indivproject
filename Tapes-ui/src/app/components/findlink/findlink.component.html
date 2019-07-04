@@ -2,7 +2,7 @@
   <head>
 
   </head>
-  <body style="background-image: url('https://www.dropbox.com/s/oyoof748zc6lprl/Edit-0914.jpg?raw=1')">
+  <body>
     <div style="text-align:center">
       <a routerLink="/viewtapes" routerLinkActive="active">View all Tapes</a>
       <a routerLink="/addtape" routerLinkActive="active">Add a Tape</a>
@@ -10,18 +10,11 @@
       </div>
     <div class="container">
       <p>Which song shall we listen to?</p>
-      
-      <input type=text, id=findlink>
-      <button type="submit" class="btn btn-primary" >Find</button>
-   
-    <tr *ngFor="let tape of tapes">
-    <a [routerLink]="['/admin/view', tape.urlLink]">{{tape.urlLink}}</a>
-    </tr>
+        <form>
+          <input type=text, id=findlink>
+          <p><button type="submit" class="btn btn-primary" style="background-color:black">Find</button></p>
+          </form>
       </div>
-    <div>
-      <p id=linkadd></p>
-      </div>
- 
     </body>
 </html>
  

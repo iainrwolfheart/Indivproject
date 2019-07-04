@@ -11,7 +11,9 @@
     <div class="tapelist">
       <tr *ngFor="let tape of tapes">
       <td style="text-align:center">
-        <p><a [routerLink]="['/admin/view', tape.songName]">{{tape.songName}}</a></p>
+        <p id="tapeDisplay">
+          <a href="{{tape.urlLink}}" target="_blank">{{tape.songName}}</a>
+          </p>
         </td>
       </tr>
       </div>
